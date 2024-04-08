@@ -26,7 +26,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254742974291";
 
 
 
@@ -53,16 +53,16 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "923184474176,923xxxxx
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "false"
-global.save_status = process.env.AUTO_SAVE_STATUS || "false"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
+global.read_status = process.env.AUTO_READ_STATUS || "true"
+global.save_status = process.env.AUTO_SAVE_STATUS || "true"
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,254xxxxxxxx";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "all";
 
 global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  "" ;
+global.SESSION_ID = process.env.SESSION_ID ||  "SUHAIL_13_33_04_08_ewogICJjcmVkcy5qc29uIjogIntcIm5vaXNlS2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwieUk3Qmx1OHhyR2c1TDhpekJYRVhIaWxYUys0L2RvQ0RNWmtWK0QzN2gwTT1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcImZiVk55MStVQmxEM1pkejdud3g1L0haZC90TS9ISDdoQXRoV3ovclBkUk09XCJ9fSxcInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyXCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiNkhzQzIwcTZ1LzVGQlRwRUZzazZsanNuUUNYOHl3K0dwbU9DOERTM1FWcz1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIjA1MVZNNVdtaTJwVytIbXZaa0kwSlpsOGxZdUFZVTdjRVRaNWZHdCtnd2s9XCJ9fSxcInNpZ25lZElkZW50aXR5S2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiV0tWOG9zYVVrR000ek9tM1dvb3J3NE5adE1LSlBMdWNXSVBtektjK3QxYz1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcImdGQkxxQW42VTBkY3M4dndrb1A0N2ZUeXA5blBMSXJQOUhxaFRIbkV1QWc9XCJ9fSxcInNpZ25lZFByZUtleVwiOntcImtleVBhaXJcIjp7XCJwcml2YXRlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJ3SlljekJZWHh5Y1NSTVM1WjlheEhOZ0pWdEZwQ0hQUXpRTlVYbDRjd1ZBPVwifSxcInB1YmxpY1wiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwieFM2T09vQzljMWM2MGdoYS9rbTllTE5kVmdqOVljZE1PdTFuSitxclRUVT1cIn19LFwic2lnbmF0dXJlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCIzckFyeTdQNlBIRHNWdkZoQ05FOHJmSDFvcllhazVRYVRzbXlSUytERzdYckR0ck1kblM5ZVErOU40ajUreXdvT0c1YWRvQlZ5enVkem9qMHM3cDVpQT09XCJ9LFwia2V5SWRcIjoxfSxcInJlZ2lzdHJhdGlvbklkXCI6MjA3LFwiYWR2U2VjcmV0S2V5XCI6XCJwN29IczVLdW9TcFlhTFd0c3ZqRUhHa1k5K3QwQUVHbEFIVmUwcGZFZVY0PVwiLFwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzXCI6W3tcImtleVwiOntcInJlbW90ZUppZFwiOlwiMjU0NzQyOTc0MjkxQHMud2hhdHNhcHAubmV0XCIsXCJmcm9tTWVcIjp0cnVlLFwiaWRcIjpcIjIzQ0Q1NkVBMzg0RDEwRUUzNDg0NURDQUZCMzc2MzRDXCJ9LFwibWVzc2FnZVRpbWVzdGFtcFwiOjE3MTI1ODMyMjl9LHtcImtleVwiOntcInJlbW90ZUppZFwiOlwiMjU0NzQyOTc0MjkxQHMud2hhdHNhcHAubmV0XCIsXCJmcm9tTWVcIjp0cnVlLFwiaWRcIjpcIjQzQzExRjY2MEFCOEU1NkRCQzhGNjAwRjAyRjM4OUJEXCJ9LFwibWVzc2FnZVRpbWVzdGFtcFwiOjE3MTI1ODMyMzB9XSxcIm5leHRQcmVLZXlJZFwiOjMxLFwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWRcIjozMSxcImFjY291bnRTeW5jQ291bnRlclwiOjEsXCJhY2NvdW50U2V0dGluZ3NcIjp7XCJ1bmFyY2hpdmVDaGF0c1wiOmZhbHNlfSxcImRldmljZUlkXCI6XCItR2dYYjVjalFCYVVoOEgwNFNob0RBXCIsXCJwaG9uZUlkXCI6XCIwZTczZTE1Yi01MmMzLTQ1NmQtOTU1My1lZDFkZDdhMjhmODlcIixcImlkZW50aXR5SWRcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIk9uUDl3NUJxTEZvVW4zUXZIZHR0d2tJM2JHQT1cIn0sXCJyZWdpc3RlcmVkXCI6dHJ1ZSxcImJhY2t1cFRva2VuXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCIyTmw0cERPT2hQaHp0cG90SEN3czZnaWRwQnc9XCJ9LFwicmVnaXN0cmF0aW9uXCI6e30sXCJwYWlyaW5nQ29kZVwiOlwiWDlCNVpUQU5cIixcIm1lXCI6e1wiaWRcIjpcIjI1NDc0Mjk3NDI5MToxQHMud2hhdHNhcHAubmV0XCIsXCJsaWRcIjpcIjIyNDM2OTMyNjQ0ODc1NToxQGxpZFwiLFwibmFtZVwiOlwidGFwZW1hbWFydG9oXCJ9LFwiYWNjb3VudFwiOntcImRldGFpbHNcIjpcIkNLM04xT1FDRUxUa3o3QUdHQUVnQUNnQVwiLFwiYWNjb3VudFNpZ25hdHVyZUtleVwiOlwibExjZUV1ZkJIMmxaUTE4ckJCaUMyeFZnWDVjVXhMbmtTMHBKL2wydUFFUT1cIixcImFjY291bnRTaWduYXR1cmVcIjpcIjdkWnpSaWJZdTQ3WlUwY0VlbHFNRmNOT3U0cG9YZXBBc0dPcUxudFZLaFk5eG5GRW9oYktKZlJCRXZCdytpVTByUjB5bjdvOWI2emY0Z25MKzR0NkRnPT1cIixcImRldmljZVNpZ25hdHVyZVwiOlwiang2d3czeFhWOVpwZ3hwWjFJZFR5L0cxYjRWdE11emV6dXF6NkM5K3RCcUVUWEx5SVRsbzlUZTd1UWFjdXljVUh0VzFsVkRFbzFNWDJmWGl5eXJuaXc9PVwifSxcInNpZ25hbElkZW50aXRpZXNcIjpbe1wiaWRlbnRpZmllclwiOntcIm5hbWVcIjpcIjI1NDc0Mjk3NDI5MToxQHMud2hhdHNhcHAubmV0XCIsXCJkZXZpY2VJZFwiOjB9LFwiaWRlbnRpZmllcktleVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiQlpTM0hoTG53UjlwV1VOZkt3UVlndHNWWUYrWEZNUzU1RXRLU2Y1ZHJnQkVcIn19XSxcInBsYXRmb3JtXCI6XCJhbmRyb2lkXCIsXCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXBcIjoxNzEyNTgzMjI0LFwibXlBcHBTdGF0ZUtleUlkXCI6XCJBQUFBQUJmalwifSIsCiAgImFwcC1zdGF0ZS1zeW5jLWtleS1BQUFBQUJmai5qc29uIjogIntcImtleURhdGFcIjpcIjRqeEhMYSszYTBLRGtrQ1c4cDlRWThrL0NoRXM1a1RFSnFaWUx3Z284blk9XCIsXCJmaW5nZXJwcmludFwiOntcInJhd0lkXCI6NzQ3OTcyMjY5LFwiY3VycmVudEluZGV4XCI6MSxcImRldmljZUluZGV4ZXNcIjpbMCwxXX0sXCJ0aW1lc3RhbXBcIjpcIjE3MTI1ODMyMjc1MDlcIn0iCn0=" ;
 
 
 module.exports = {
@@ -76,8 +76,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "Suhail-MD",
   packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  botname : process.env.BOT_NAME  || "Tapema",
+  ownername:process.env.OWNER_NAME|| "Tapema",
 
 
   errorChat : process.env.ERROR_CHAT || "",
